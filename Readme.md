@@ -50,3 +50,5 @@ After updating the deployment.yaml, it pushes these changes back to the Git repo
 ArgoCD detects these changes and triggers the deployment in the Kubernetes cluster, effectively updating the running application with the new version of the container.
 Summary
 In this setup, Jenkins handles the continuous integration aspect by building Docker images and updating Kubernetes manifests. ArgoCD takes care of the continuous deployment by ensuring that any changes committed to the gitops-register-app repository are applied to the Kubernetes cluster, maintaining the desired state as defined in Git.
+
+![Screenshot (132)](https://github.com/user-attachments/assets/3bfb54ed-cf2f-4f3e-b2f7-4b342a9f39e4)
